@@ -1,0 +1,118 @@
+Gabi ajoute ça sur ma page d'accueil
+💡 Étudiant en BTS SIO option SLAM, passionné par le développement et animé par la volonté constante de comprendre, créer et innover, je conçois des solutions robustes et accessibles avec rigueur, curiosité et ambition. Chaque projet est pour moi une opportunité de progresser et de faire la différence.
+
+en plus de ça je te mets les différentes section on prendras ça pour créer les pages 
+
+A PROPOS:
+
+👤 Identité
+
+Judes-Uriel Angoran
+Étudiant en BTS SIO option SLAM (Solutions Logicielles et Applications Métiers)
+Développeur web & futur expert en IA appliquée à la cybersécurité
+Basé à Eaubonne (Île-de-France) — Ouvert à toute opportunité dans la région, mobilité possible
+
+🎓 Parcours Scolaire
+Année	Établissement	Formation
+2025–2026	Institut F2I, France	2ᵉ année de BTS SIO SLAM (en cours)
+2024–2025	Institut F2I, France	1ʳᵉ année de BTS SIO SLAM
+2023–2024	UIPA, Côte d'Ivoire	BTS IDA (Informatique Développeur d’Applications)
+2022–2023	CNDL, Côte d'Ivoire	Baccalauréat Scientifique (Série D)
+
+💡 Début en informatique :
+Après le bac, j’ai commencé à m’intéresser à la programmation pendant les vacances, via un cours gratuit de Python sur OpenClassrooms. Mon intérêt est rapidement passé du jeu vidéo à des projets concrets à fort potentiel : CV en ligne, outils d’aide à l’orientation, portefeuille électronique…
+
+💼 Parcours Professionnel
+
+Stage — A’numérique (Côte d’Ivoire) – 2 mois
+
+Projet : Création d’un site vitrine pour l’entreprise
+
+Technologies découvertes : React, Next.js
+
+Apprentissage : montée en compétence sur le développement front-end moderne
+
+⚠️ Projet non terminé, mais le stage a déclenché un fort intérêt pour les frameworks JavaScript modernes et la gestion de projet web.
+
+🧪 Projets Personnels
+
+Même si aucun projet n’est encore finalisé, chacun a été pour moi une occasion d’explorer, d’apprendre et de comprendre les enjeux d’un développement réussi.
+
+🧰 Générateur de CV (web)
+
+🎓 Plateforme d’aide à l’orientation scolaire
+
+🛒 Créateur de boutique en ligne no-code
+
+🐍 Mini-jeux et utilitaires en Python (action/vérité, générateur de mots de passe, simulateur PVP…)
+
+💬 Ces projets sont des preuves de mon autonomie, de ma curiosité et de ma volonté constante de progresser, même sans cadre scolaire.
+
+🚀 Objectifs & Motivation
+
+🎯 Objectif à court terme :
+Obtenir une alternance après le BTS dans le domaine du développement (web ou logiciel), tout en poursuivant mes études.
+
+🧠 Objectif à long terme :
+Me spécialiser en intelligence artificielle et explorer son application à la cybersécurité, en lien avec mes futurs projets (portefeuille électronique, plateforme e-commerce, etc.).
+
+📍 Localisation & Mobilité
+📍 Actuellement basé à Eaubonne (Île-de-France)
+✅ Ouvert à toutes les opportunités en Île-de-France
+🚚 Mobilité possible avec accompagnement (hébergement, transport)
+
+
+
+COMPETENCES
+🔤 Langages
+
+HTML / CSS — ✔️ Bonne maîtrise des bases (structure, mise en page, formulaires…)
+
+JavaScript — ✔️ Utilisé pour créer de petites interactions (DOM, gestion d'événements…)
+
+PHP — ✔️ Utilisé pour créer des pages web dynamiques avec formulaires, affichage de données, etc.
+
+SQL — ✔️ Utilisé via phpMyAdmin pour gérer des bases de données (CRUD simple)
+
+Python — 🟡 Bases acquises via OpenClassrooms et projets persos
+
+C# — 🟠 En cours d’apprentissage avec Visual Studio (BTS SIO 2ᵉ année)
+
+⚙️ Frameworks & Bibliothèques CSS
+
+Bootstrap — ✔️ Utilisé pour accélérer la mise en page responsive
+
+Tailwind CSS — 🟡 En cours d'apprentissage pour créer des interfaces plus modulaires
+
+⚙️ Frameworks JS & environnements
+
+React — 🟡 Découvert pendant le stage (pas encore autonome)
+
+Next.js — 🟡 Premiers pas durant le stage (notions de base seulement)
+
+🛠️ Outils & Environnements
+
+Visual Studio Code — ✔️ Utilisé comme environnement principal
+
+Visual Studio — 🟠 Utilisé pour apprendre le C#
+
+phpMyAdmin — ✔️ Utilisé pour manipuler des bases SQL côté web
+
+Git / GitHub — ✔️ Utilisation de base pour versionner les projets
+
+Terminal / ligne de commande — ✔️ Utilisé dans des projets simples
+
+📚 En cours d’exploration
+
+💡 Je suis en train de me former progressivement sur :
+
+C# et développement avec Visual Studio
+
+React & Next.js pour du développement web plus avancé
+
+Tailwind CSS pour un design moderne et efficace
+
+Organisation de code (composants, logique) pour mieux structurer mes projets
+
+
+on verra la section et la page projet plus tard pour l'instant completons le profil et créons les deux autres sections 
