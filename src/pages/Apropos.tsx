@@ -1,5 +1,6 @@
 // src/pages/Apropos.tsx
 import { Link } from "react-router-dom";
+import Navigation from "../components/Navigation";
 import Footer from "../components/Footer";
 import { useEffect, useMemo, useRef, useState } from "react";
 import {
@@ -371,48 +372,24 @@ function Roadmap() {
 }
 
 export default function Apropos() {
-  const nav: NavItem[] = [
-    { label: "ACCUEIL", path: "/" },
-    { label: "À PROPOS", path: "/apropos" },
-    { label: "PROJETS", path: "/projets" },
-    { label: "COMPÉTENCES", path: "/competences" },
-    { label: "VEILLE", path: "/veille" },
-    { label: "CERTIFICATIONS", path: "/certifications" },
-    { label: "CV", path: "/cv" },
-    { label: "CONTACT", path: "/contact" },
-  ];
-
   return (
-    <main className="min-h-screen bg-[#07060a] text-gray-200 font-sans flex flex-col">
-      <div className="relative">
+    <main className="min-h-screen bg-gradient-to-b from-slate-950 via-slate-900 to-slate-950 text-gray-200 font-sans flex flex-col">
+      <Navigation />
+      
+      <div className="relative flex-grow">
         <div className="absolute inset-0 overflow-hidden pointer-events-none">
           <div className="absolute -top-32 left-[-120px] w-[520px] h-[520px] bg-purple-700/10 rounded-full blur-3xl" />
           <div className="absolute -bottom-40 right-[-140px] w-[560px] h-[560px] bg-blue-700/10 rounded-full blur-3xl" />
-          <div className="absolute inset-0 bg-[radial-gradient(ellipse_at_top,rgba(168,85,247,0.10),transparent_55%),radial-gradient(ellipse_at_bottom,rgba(59,130,246,0.08),transparent_55%)]" />
-          <div className="absolute inset-0 opacity-[0.18] [background-image:linear-gradient(rgba(255,255,255,0.06)_1px,transparent_1px),linear-gradient(90deg,rgba(255,255,255,0.06)_1px,transparent_1px)] [background-size:36px_36px]" />
         </div>
 
         <div className="relative px-6 py-10 sm:py-12">
           <div className="max-w-6xl mx-auto">
-            <nav className="flex flex-wrap justify-center gap-4 mb-10">
-              {nav.map((item) => (
-                <Link
-                  key={item.path}
-                  to={item.path}
-                  className="px-5 py-2 border border-gray-500/40 rounded-lg text-gray-200/90 hover:bg-gray-800/40 transition"
-                >
-                  {item.label}
-                </Link>
-              ))}
-            </nav>
-
             <header className="text-center mb-10 sm:mb-12">
-              <h1 className="text-4xl sm:text-5xl font-bold text-transparent bg-clip-text bg-gradient-to-r from-purple-300 to-blue-300">
+              <h1 className="text-4xl sm:text-5xl font-bold bg-gradient-to-r from-blue-400 via-cyan-400 to-purple-400 bg-clip-text text-transparent">
                 À propos
               </h1>
               <p className="mt-3 text-gray-300/80 max-w-2xl mx-auto">
-                Un schéma de raisonnement : profil, parcours, méthode, progression et objectifs.
-              </p>
+                Un schéma de raisonnement : profil, parcours, méthode, progression et objectifs.</p>
             </header>
 
             <div className="space-y-7 sm:space-y-9">
