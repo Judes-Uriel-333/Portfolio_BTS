@@ -1,0 +1,14 @@
+# deps
+node_modules/
+.pnpm-store/
+
+# build
+dist/
+
+# logs
+npm-debug.log*
+pnpm-debug.log*
+
+# env
+.env
+.env.*
