@@ -468,6 +468,18 @@ export default function Apropos() {
               </div>
 
               <Node side="right" title="Expérience professionnelle" Icon={Briefcase}>
+                <div className="rounded-xl border border-white/10 p-5 mb-5">
+                  <p>
+                    <span className="text-gray-100 font-semibold">Développeur Web — Projet Plateforme d'Agrégation — A'Numérique</span>{" "}
+                    (décembre 2025 – janvier 2026). Travail sur un flux de données complet pour une page{" "}
+                    <span className="text-gray-100 font-semibold">Salons d'emploi</span>.
+                  </p>
+                  <ul className="mt-4 list-disc list-inside space-y-2">
+                    <li>Conception du flux scraping, stockage et affichage.</li>
+                    <li>Mise en place du seeding et gestion des données avec Prisma et Docker.</li>
+                    <li>Recherche de cohérence entre environnements et fiabilisation du pipeline.</li>
+                  </ul>
+                </div>
                 <p>
                   <span className="text-gray-100 font-semibold">Stagiaire Développeur Web — A’Numérique</span>{" "}
                   (mai 2025 – juillet 2025). Participation au développement d’une plateforme web en{" "}
@@ -482,6 +494,10 @@ export default function Apropos() {
                 <p className="mt-4 text-gray-300/85">
                   Ce stage a confirmé mon intérêt pour les frameworks modernes et la structuration de projets réels,
                   même à échelle modeste.
+                </p>
+                <p className="mt-4 text-gray-300/85">
+                  Cette mission complémentaire a aussi renforcé mon intérêt pour les flux de données,
+                  la fiabilité des pipelines et l'intégration de logique data dans des projets web concrets.
                 </p>
               </Node>
 

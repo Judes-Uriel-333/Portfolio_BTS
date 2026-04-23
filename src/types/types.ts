@@ -3,6 +3,7 @@ export interface Project {
     id: string;
     title: string;
     category: "professionnel" | "academique" | "personnel" | "bts-e6";
+    isBtsE6?: boolean;
     period?: string;
     description: string;
     problemStatement?: string;
@@ -24,9 +25,15 @@ export interface Certification {
     title: string;
     organization: string;
     status: "obtained" | "in-progress" | "planned";
+    kind?: "certification" | "course" | "attestation";
     date?: string;
     description?: string;
     credentialUrl?: string;
+    filePath?: string;
+    downloadName?: string;
+    result?: string;
+    highlights?: string[];
+    tags?: string[];
     image?: string;
 }
 

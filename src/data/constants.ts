@@ -4,6 +4,26 @@ import { Project, Certification, VeilleItem, CompetenceBTS } from "../types/type
 export const projects: Project[] = [
     // PROFESSIONNELS
     {
+        id: "anumerique-aggregation",
+        title: "Développeur Web — Projet Plateforme d'Agrégation",
+        category: "professionnel",
+        period: "Décembre 2025 – Janvier 2026",
+        description:
+            "Conception d'un flux de données complet pour la page Salons d'emploi : scraping, stockage, seeding et affichage dans une interface web.",
+        problemStatement:
+            "Le besoin était de fiabiliser la récupération, la structuration et l'affichage de données de salons d'emploi dans une même chaîne de traitement.",
+        solution:
+            "Mise en place d'un pipeline scraping → stockage → affichage, avec service de seeding, gestion des données via Prisma et Docker, puis intégration dans l'application.",
+        technicalStack: ["React.js", "Next.js", "Prisma", "Docker", "SQL", "Scraping"],
+        challenges:
+            "Assurer la cohérence des données entre environnements, structurer le pipeline et rendre le flux fiable pour l'application.",
+        learnings:
+            "Approfondissement des flux de données, de Prisma, de Docker et de l'intégration de logiques data dans un projet web réel.",
+        links: {
+            github: "https://github.com/Judes-Uriel-333",
+        },
+    },
+    {
         id: "anumerique-stage",
         title: "Stagiaire Développeur Web — A'Numérique",
         category: "professionnel",
@@ -19,12 +39,31 @@ export const projects: Project[] = [
             "Premier projet professionnel en environnement réel. Apprentissage du workflow Git en équipe, respect des délais, adaptation aux retours clients.",
         learnings:
             "Compréhension du cycle de vie d'un projet web professionnel, méthodologie Agile, communication avec le client, importance des tests et de la documentation.",
-        links: {
-            demo: "#",
-        },
     },
 
     // ACADÉMIQUES
+    {
+        id: "fix-info-csharp",
+        title: "Fix-Info — Application Windows de gestion des incidents",
+        category: "academique",
+        isBtsE6: true,
+        period: "01/2026 – 03/2026",
+        description:
+            "Application Windows client lourd graphique développée en C# .NET Framework pour gérer les incidents et les réparations du matériel informatique d'un parc interne.",
+        problemStatement:
+            "L'objectif était de proposer un logiciel interne permettant de centraliser le suivi des pannes et la gestion des réparations du matériel informatique.",
+        solution:
+            "Réalisation d'une application Windows avec interface graphique, gestion des données en SQL Server et environnement de développement Visual Studio 2022.",
+        technicalStack: ["C#", ".NET Framework", "Visual Studio 2022", "SQL Server Express", "SSMS"],
+        challenges:
+            "Concevoir une application client lourd graphique, structurer les données et assurer la maintenance corrective ou évolutive de la solution.",
+        learnings:
+            "Renforcement de mes bases en C#, développement client lourd, gestion des données et conception d'une solution applicative dans un cadre BTS E6.",
+        competencesBTS: ["A2.1.1", "A2.2.1", "A4.1.1"],
+        links: {
+            github: "https://github.com/Judes-Uriel-333/Fix-Info",
+        },
+    },
     {
         id: "hash-python",
         title: "Hash (Python)",
@@ -41,13 +80,14 @@ export const projects: Project[] = [
         learnings:
             "Cryptographie de base, manipulation de fichiers en Python, importance de l'intégrité des données.",
         links: {
-            github: "#",
+            github: "https://github.com/Judes-Uriel-333",
         },
     },
     {
         id: "gameconnect-php",
         title: "GameConnect (PHP)",
         category: "academique",
+        isBtsE6: true,
         description:
             "Réseau social de gamers : inscription, authentification, publications, likes, commentaires et édition de profil.",
         problemStatement:
@@ -59,8 +99,9 @@ export const projects: Project[] = [
             "Sécurisation des données utilisateur (SQL injection, XSS), gestion des sessions, architecture MVC basique.",
         learnings:
             "Développement back-end PHP, requêtes SQL complexes, sécurité web, gestion d'état utilisateur.",
+        competencesBTS: ["A2.1.1", "A2.2.1", "A4.1.1"],
         links: {
-            github: "#",
+            github: "https://github.com/Judes-Uriel-333",
         },
     },
 
@@ -80,44 +121,6 @@ export const projects: Project[] = [
             "Gestion d'état complexe avec plusieurs composants, persistance des données en local, drag & drop.",
         learnings:
             "Maîtrise des hooks React, gestion d'état avancée, concept de composants contrôlés vs non-contrôlés.",
-        links: {
-            demo: "#",
-        },
-    },
-    {
-        id: "ecommerce-vanilla",
-        title: "Site vitrine — Boutique en ligne (HTML/CSS/JS)",
-        category: "personnel",
-        description:
-            "Version front pure, responsive et optimisée pour l'expérience utilisateur.",
-        problemStatement:
-            "Apprendre les fondamentaux du développement web sans framework.",
-        solution:
-            "Site vitrine responsive avec JavaScript vanilla, animations CSS, et optimisation des performances.",
-        technicalStack: ["HTML5", "CSS3", "JavaScript", "Responsive Design"],
-        challenges:
-            "Gestion du responsive sans framework CSS, compatibilité cross-browser, animations fluides.",
-        learnings:
-            "Maîtrise des fondamentaux HTML/CSS/JS, importance du design responsive, optimisation du chargement.",
-    },
-    {
-        id: "ecommerce-react",
-        title: "Site vitrine — Boutique en ligne (React/Next.js/Tailwind)",
-        category: "personnel",
-        description:
-            "Version moderne avec composants dynamiques et architecture optimisée.",
-        problemStatement:
-            "Moderniser le site vitrine précédent avec des technologies actuelles.",
-        solution:
-            "Refonte complète avec Next.js, composants React réutilisables, Tailwind pour le design system.",
-        technicalStack: ["React", "Next.js", "Tailwind CSS", "TypeScript"],
-        challenges:
-            "Apprentissage de Tailwind CSS, optimisation SSR avec Next.js, gestion des images.",
-        learnings:
-            "Next.js et SSR/SSG, utility-first CSS avec Tailwind, amélioration des performances.",
-        links: {
-            demo: "#",
-        },
     },
     {
         id: "portfolio-nextjs",
@@ -143,20 +146,37 @@ export const projects: Project[] = [
 
 export const certifications: Certification[] = [
     {
-        id: "openclassrooms-html-css",
-        title: "Créez votre site web avec HTML5 et CSS3",
-        organization: "OpenClassrooms",
+        id: "secnumacademie",
+        title: "SecNumacadémie",
+        organization: "ANSSI / SecNumacadémie",
         status: "obtained",
-        date: "2023",
-        description: "Maîtrise des fondamentaux HTML5 et CSS3",
+        kind: "attestation",
+        date: "25/02/2026",
+        description:
+            "Attestation de suivi obtenue après validation des quatre modules du MOOC SecNumacadémie consacré aux fondamentaux de la cybersécurité.",
+        filePath: "/certifications/certification-secnum.pdf",
+        downloadName: "Certification-SecNum.pdf",
+        result: "Validation des 4 modules",
+        highlights: [
+            "Panorama de la SSI : 92%",
+            "Sécurité de l'authentification : 100%",
+            "Sécurité sur Internet : 100%",
+            "Sécurité du poste de travail et nomadisme : 100%",
+        ],
+        tags: ["Cybersécurité", "ANSSI", "MOOC", "SSI"],
     },
     {
-        id: "openclassrooms-js",
-        title: "Apprenez à programmer avec JavaScript",
+        id: "openclassrooms-python",
+        title: "Apprenez les bases du langage Python",
         organization: "OpenClassrooms",
         status: "obtained",
+        kind: "course",
         date: "2023",
-        description: "Bases de la programmation JavaScript",
+        description:
+            "Cours OpenClassrooms validé autour des bases du langage Python et des premiers réflexes de programmation.",
+        result: "Progression 100%",
+        highlights: ["Objectifs pédagogiques validés : 3/3"],
+        tags: ["Python", "Programmation", "OpenClassrooms"],
     },
     {
         id: "bts-sio-slam",

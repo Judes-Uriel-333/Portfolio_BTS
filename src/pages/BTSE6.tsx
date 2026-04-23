@@ -5,10 +5,7 @@ import { GraduationCap, Code, CheckCircle, ExternalLink } from "lucide-react";
 import { projects, competencesBTS } from "../data/constants";
 
 export default function BTSE6() {
-    const btsProjects = projects.filter((p) => p.category === "bts-e6");
-
-    // Projets académiques qui peuvent aussi compter pour E6
-    const academicProjects = projects.filter((p) => p.category === "academique");
+    const btsProjects = projects.filter((p) => p.isBtsE6);
 
     return (
         <div className="min-h-screen bg-[#07060a] text-gray-200 font-sans px-6 py-12 flex flex-col justify-between">
@@ -58,13 +55,16 @@ export default function BTSE6() {
                     </div>
                 </section>
 
-                {/* Projets académiques (utilisables pour E6) */}
+                {/* Projets retenus pour l'épreuve E6 */}
                 <section className="mb-12">
                     <h2 className="text-2xl font-semibold text-purple-300 mb-6">
-                        Projets Académiques
+                        Projets présentés pour l'épreuve
                     </h2>
                     <div className="grid gap-6">
-                        {academicProjects.map((project) => (
+                        {btsProjects.map((project) => {
+                            const hasProjectLinks = Boolean(project.links?.github);
+
+                            return (
                             <article
                                 key={project.id}
                                 className="bg-[#0f0f14] border border-[#1b1b24] rounded-lg p-6 hover:border-purple-600 hover:shadow-lg hover:shadow-purple-800/20 transition-all"
@@ -169,9 +169,9 @@ export default function BTSE6() {
                                 )}
 
                                 {/* Liens */}
-                                {project.links && (
+                                {hasProjectLinks && (
                                     <div className="flex gap-3 flex-wrap">
-                                        {project.links.github && (
+                                        {project.links?.github && (
                                             <a
                                                 href={project.links.github}
                                                 target="_blank"
@@ -179,24 +179,13 @@ export default function BTSE6() {
                                                 className="flex items-center gap-2 px-4 py-2 text-sm border border-violet-500 text-violet-300 rounded-lg hover:bg-violet-700 hover:text-white transition-all"
                                             >
                                                 <ExternalLink className="w-4 h-4" />
-                                                GitHub
-                                            </a>
-                                        )}
-                                        {project.links.demo && (
-                                            <a
-                                                href={project.links.demo}
-                                                target="_blank"
-                                                rel="noopener noreferrer"
-                                                className="flex items-center gap-2 px-4 py-2 text-sm border border-violet-500 text-violet-300 rounded-lg hover:bg-violet-700 hover:text-white transition-all"
-                                            >
-                                                <ExternalLink className="w-4 h-4" />
-                                                Démo
+                                                Voir GitHub
                                             </a>
                                         )}
                                     </div>
                                 )}
                             </article>
-                        ))}
+                        )})}
                     </div>
                 </section>
 
