@@ -1,9 +1,10 @@
 // src/pages/Projets.tsx
 import Navigation from "../components/Navigation";
-import { Briefcase, Code, Laptop, ExternalLink } from "lucide-react";
+import { Briefcase, Code, Laptop, ExternalLink, Images, FileText } from "lucide-react";
 import Footer from "../components/Footer";
 import { projects } from "../data/constants";
 import { useState } from "react";
+import { Link } from "react-router-dom";
 
 export default function Projets() {
   const [activeCategory, setActiveCategory] = useState<string>("all");
@@ -57,21 +58,28 @@ export default function Projets() {
           })}
         </div>
 
-        {/* Lien vers BTS E6 */}
-        <div className="mb-8 text-center">
-          <a
-            href="/projets/bts-e6"
+        {/* Liens BTS */}
+        <div className="mb-8 flex justify-center gap-3 flex-wrap">
+          <Link
+            to="/projets/tableau-synthese"
+            className="inline-flex items-center gap-2 px-6 py-3 border border-cyan-500 text-cyan-300 rounded-lg hover:bg-cyan-700 hover:text-white transition-all shadow-lg hover:shadow-cyan-800/30"
+          >
+            <FileText className="w-5 h-5" />
+            Voir tableau de synthèse
+          </Link>
+          <Link
+            to="/projets/bts-e6"
             className="inline-flex items-center gap-2 px-6 py-3 bg-gradient-to-r from-purple-600 to-blue-600 text-white rounded-lg hover:from-purple-700 hover:to-blue-700 transition-all shadow-lg hover:shadow-purple-800/50"
           >
             <Code className="w-5 h-5" />
             Voir les projets BTS E6
-          </a>
+          </Link>
         </div>
 
         {/* Projets */}
         <section className="grid gap-6">
           {filteredProjects.map((project) => {
-            const hasProjectLinks = Boolean(project.links?.github);
+            const hasProjectLinks = Boolean(project.detailPath || project.links?.github);
 
             return (
               <article
@@ -164,6 +172,15 @@ export default function Projets() {
               {/* Liens */}
                 {hasProjectLinks && (
                   <div className="flex gap-3 flex-wrap">
+                    {project.detailPath && (
+                      <Link
+                        to={project.detailPath}
+                        className="flex items-center gap-2 px-3 py-2 text-xs border border-cyan-500 text-cyan-300 rounded-lg hover:bg-cyan-700 hover:text-white transition-all"
+                      >
+                        <Images className="w-3 h-3" />
+                        Voir le projet
+                      </Link>
+                    )}
                     {project.links?.github && (
                       <a
                         href={project.links.github}

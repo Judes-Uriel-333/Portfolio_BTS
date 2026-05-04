@@ -1,0 +1,132 @@
+Présentation orale E5 - BTS SIO SLAM
+Angoran Moyé Judes-Uriel Stéphanas
+Institut F2I - Session 2026
+
+Ce fichier source reprend le contenu présent dans le document ODT.
+
+Présentation orale E5 - BTS SIO SLAM
+Angoran Moyé Judes-Uriel Stéphanas
+Institut F2I - Session 2026
+Durée cible : environ 7 à 8 minutes. Limite haute conseillée : 10 minutes maximum.
+Objectif du document : disposer d&apos;un texte oral structuré pour présenter le portfolio de compétences, le tableau de synthèse et les réalisations professionnelles de l&apos;épreuve E5.
+Plan de la présentation
+
+1. Introduction et annonce du sujet.
+2. Profil personnel et positionnement.
+3. Ce que l&apos;épreuve E5 doit montrer.
+4. Cartographie technique actuelle.
+5. Réalisations en formation.
+6. Expériences professionnelles.
+7. Projets personnels et orientation IA / données.
+8. Veille technologique et développement professionnel.
+9. Conclusion.
+
+1. Introduction
+Durée indicative : 35 à 45 secondes
+Objectif : Présenter le contexte de l&apos;oral et annoncer la logique générale de la présentation.
+Texte à dire
+Bonjour, je m&apos;appelle Angoran Moyé Judes-Uriel Stéphanas. Je suis étudiant en BTS SIO option SLAM à l&apos;Institut F2I, en session 2026.
+Pour cette épreuve E5, je vais présenter mon parcours à travers mon portfolio de compétences, mes réalisations et mon tableau de synthèse.
+L&apos;objectif n&apos;est pas simplement de lister tous mes projets. Je veux surtout montrer comment chaque réalisation m&apos;a permis de construire progressivement des compétences en développement, en organisation de projet, en veille et en professionnalisation.
+Ma présentation suit donc une logique simple : d&apos;abord mon profil, ensuite les compétences attendues en E5, puis les projets qui servent de preuves concrètes.
+Transition
+Je vais commencer par mon profil, car il explique la manière dont j&apos;ai construit mon portfolio.
+2. Profil personnel et positionnement
+Durée indicative : 50 à 60 secondes
+Objectif : Présenter un profil réaliste, en progression, centré sur la compréhension et la structuration.
+Texte à dire
+Je me présente comme un profil en construction sérieuse. Je ne cherche pas à me présenter comme un développeur expert, mais comme quelqu&apos;un qui progresse avec méthode et qui cherche à comprendre les fondations avant d&apos;aller vers des sujets plus complexes.
+Mon fil conducteur est la compréhension des besoins, la structuration du code et la circulation des données. Avant d&apos;écrire une solution, j&apos;essaie d&apos;abord de comprendre le problème, les contraintes et le résultat attendu.
+Mon parcours a commencé par un intérêt autonome pour la programmation, notamment avec Python. Cette première étape m&apos;a permis de découvrir la logique algorithmique et les bases du raisonnement informatique.
+Aujourd&apos;hui, avec le BTS SIO option SLAM, je consolide mes bases en développement web, bases de données, conception applicative et travail en mode projet.
+Ce positionnement se retrouve dans mon portfolio : je privilégie les projets qui montrent une progression réelle, plutôt qu&apos;une simple accumulation de démonstrations.
+Transition
+À partir de ce profil, je vais maintenant expliquer ce que l&apos;épreuve E5 doit mettre en évidence.
+3. Ce que l&apos;épreuve E5 doit montrer
+Durée indicative : 55 à 65 secondes
+Objectif : Relier le portfolio au tableau de synthèse et aux blocs de compétences du BTS SIO.
+Texte à dire
+L&apos;épreuve E5 s&apos;appuie sur le portfolio de compétences et sur le tableau de synthèse. Pour moi, ce tableau n&apos;est pas seulement une liste de réalisations : c&apos;est une manière d&apos;organiser des preuves.
+Les réalisations que j&apos;ai sélectionnées permettent de couvrir plusieurs blocs de compétences : gérer le patrimoine informatique, répondre aux incidents et demandes, développer la présence en ligne de l&apos;organisation, travailler en mode projet, mettre à disposition un service informatique et organiser son développement professionnel.
+Par exemple, certains projets montrent la gestion de données ou de sécurité, d&apos;autres montrent la mise en ligne, la documentation, le travail en mode projet ou encore la veille technologique.
+L&apos;objectif pendant l&apos;oral est donc de montrer que mes projets ne sont pas isolés. Ils correspondent à des compétences du référentiel et racontent une progression cohérente.
+Je vais donc présenter les compétences principales que j&apos;ai travaillées, puis les illustrer par des projets concrets.
+Transition
+Avant de parler des projets, je vais résumer ma cartographie technique actuelle.
+4. Cartographie technique actuelle
+Durée indicative : 50 à 60 secondes
+Objectif : Présenter les technologies travaillées sans survendre le niveau réel.
+Texte à dire
+Sur le plan technique, mon socle principal est le développement web et applicatif.
+Côté front-end, j&apos;ai travaillé HTML, CSS, JavaScript, React, Next.js et Tailwind CSS. Ces technologies m&apos;ont permis de créer des interfaces, de manipuler des composants et de structurer des pages web.
+Côté back-end et données, j&apos;ai travaillé PHP, Python, SQL, Prisma, SQLite et PostgreSQL. Ce qui m&apos;intéresse particulièrement, c&apos;est le lien entre l&apos;interface, les données et la logique métier.
+J&apos;utilise également des outils professionnels comme VS Code, Visual Studio, Git, GitHub, Docker, le terminal et la documentation technique.
+Je considère que mes bases sont plus solides en Python, HTML/CSS et SQL. Je suis encore en consolidation sur React, Next.js, C# et les architectures plus complètes. C&apos;est une progression assumée, car je préfère être clair sur mon niveau plutôt que de surestimer mes compétences.
+Transition
+Cette cartographie technique prend sens à travers les réalisations effectuées en formation.
+5. Réalisations en formation
+Durée indicative : 70 à 80 secondes
+Objectif : Montrer que les projets académiques servent de preuves concrètes pour les compétences E5.
+Texte à dire
+Dans mes réalisations en formation, plusieurs projets ont joué un rôle important dans ma progression.
+Le projet GameConnect est un réseau social de gamers développé en PHP et MySQL. Il comprend l&apos;inscription, l&apos;authentification, les publications, les likes, les commentaires et l&apos;édition de profil. Ce projet m&apos;a permis de travailler la logique back-end, la gestion de base de données et la sécurité de base autour des sessions et des données utilisateur.
+Le programme de hash en Python m&apos;a permis de travailler la vérification d&apos;intégrité de fichiers avec SHA-256. Ce projet m&apos;a aidé à mieux comprendre la manipulation de fichiers, les empreintes numériques et l&apos;importance de détecter une modification non autorisée.
+Le portfolio est aussi une réalisation en soi. Il centralise mon parcours, mes projets, mon CV, mes certifications, ma veille technologique et mon tableau de synthèse. Il répond au bloc de compétences lié à la présence en ligne et au développement professionnel.
+J&apos;ai également travaillé des sujets liés à la cybersécurité, comme Broken Access Control. Cela m&apos;a permis de relier le développement applicatif aux risques de sécurité web.
+Ces réalisations montrent que j&apos;ai travaillé à la fois la conception, le développement, la documentation, la mise à disposition d&apos;un service et la réflexion sur la sécurité.
+Transition
+Ces projets scolaires ont ensuite été complétés par des expériences dans un contexte professionnel réel.
+6. Expériences professionnelles
+Durée indicative : 70 à 80 secondes
+Objectif : Expliquer l&apos;apport des expériences chez A&apos;Numérique dans la professionnalisation.
+Texte à dire
+Mon expérience chez A&apos;Numérique a été importante, car elle m&apos;a permis de passer d&apos;un contexte principalement scolaire à un contexte plus réel.
+Pendant mon stage de mai à juillet 2025, j&apos;ai participé au développement d&apos;une plateforme web avec React.js et Next.js. J&apos;ai notamment travaillé sur des fonctionnalités front-end, l&apos;organisation du code et la lisibilité des composants.
+Cette première expérience m&apos;a montré l&apos;importance du travail collaboratif, de la qualité du code, de la compréhension du besoin et de l&apos;adaptation aux retours.
+Ensuite, de décembre 2025 à janvier 2026, j&apos;ai travaillé sur un projet de plateforme d&apos;agrégation pour une page Salons d&apos;emploi. Le besoin était de récupérer, structurer, stocker et afficher des données dans un même flux.
+Le flux travaillé peut se résumer ainsi : scraping, stockage, seeding, puis affichage. J&apos;ai utilisé des outils comme Prisma, Docker, SQL et des frameworks web modernes.
+Ce projet m&apos;a appris que la difficulté n&apos;est pas seulement d&apos;écrire du code. Il faut aussi rendre les données cohérentes entre les environnements, fiabiliser le pipeline et organiser la logique pour qu&apos;elle reste compréhensible.
+Transition
+En parallèle de ces réalisations liées au BTS, j&apos;ai aussi développé des projets personnels qui montrent mon orientation actuelle.
+7. Projets personnels et orientation IA / données
+Durée indicative : 50 à 60 secondes
+Objectif : Présenter les projets personnels sans les survendre, en montrant leur rôle dans la progression.
+Texte à dire
+En parallèle des projets directement liés au BTS, j&apos;ai développé deux projets personnels récents : AIAuditOps et MailGuardAI.
+AIAuditOps est une application web autour de la gouvernance et de l&apos;audit des systèmes d&apos;intelligence artificielle. L&apos;idée est de pouvoir inventorier des systèmes IA, suivre des analyses de risque, gérer des contrôles et collecter des preuves d&apos;audit.
+Je reste volontairement prudent dans la manière de le présenter : le cœur du projet est fonctionnel, mais certains modules avancés sont encore en cours ou préparés pour plus tard. Ce projet m&apos;a surtout permis de travailler l&apos;architecture d&apos;une application multi-modules, l&apos;authentification, Prisma, PostgreSQL, NestJS, Next.js et Docker.
+MailGuardAI est un MVP local connecté à Gmail. Il analyse des emails, les classe selon leur intention ou leur niveau de risque, et affiche des statistiques et des filtres dans un dashboard.
+Ce projet m&apos;a permis de travailler les intégrations API, OAuth Google, Flask, SQLite, React, et l&apos;utilisation d&apos;un modèle d&apos;IA dans un workflow applicatif.
+Ces deux projets montrent mon intérêt pour les données, l&apos;automatisation, l&apos;IA appliquée et la fiabilité des décisions. Ils ne remplacent pas mes projets BTS, mais ils montrent la direction vers laquelle je souhaite évoluer.
+Transition
+Cette orientation vers l&apos;IA et la sécurité se retrouve aussi dans ma veille technologique.
+8. Veille technologique et développement professionnel
+Durée indicative : 45 à 55 secondes
+Objectif : Présenter le thème de veille et les éléments de développement professionnel.
+Texte à dire
+Ma veille technologique actuelle porte sur l&apos;IA orientée vers la défense des systèmes informatiques.
+Ce thème m&apos;intéresse parce qu&apos;il relie plusieurs sujets : la cybersécurité, l&apos;analyse de données, l&apos;automatisation, l&apos;aide à la décision et les limites des systèmes intelligents.
+Dans cette veille, je m&apos;intéresse notamment à la manière dont l&apos;IA peut aider les équipes de sécurité à détecter des anomalies, prioriser des alertes, synthétiser des incidents ou assister l&apos;investigation.
+Mais je retiens aussi un point important : une IA utile en cyberdéfense n&apos;est pas celle qui décide seule. Elle doit accélérer l&apos;analyse, laisser des traces vérifiables et rester sous contrôle humain.
+Les sources que j&apos;ai utilisées incluent notamment le NIST, l&apos;ENISA, la CISA/NSA et l&apos;OWASP Top 10 pour les applications LLM.
+Sur le plan du développement professionnel, j&apos;ai également validé SecNumacadémie de l&apos;ANSSI et un cours OpenClassrooms sur les bases du langage Python. Ces éléments complètent mes bases en cybersécurité et en programmation.
+Transition
+Je peux maintenant conclure en résumant ce que mon portfolio démontre.
+9. Conclusion
+Durée indicative : 40 à 50 secondes
+Objectif : Résumer la progression et ouvrir sur la suite du parcours professionnel.
+Texte à dire
+Pour conclure, mon portfolio montre une progression construite par des projets concrets.
+Le point commun de mes réalisations est la recherche de structure : comprendre le besoin, organiser le code, faire circuler les données et rendre le résultat exploitable.
+J&apos;ai travaillé des compétences variées : développement web, bases de données, sécurité, documentation, mise à disposition de services, veille technologique et identité professionnelle.
+Je veux continuer à progresser dans un environnement professionnel structuré, sur des applications réelles, maintenables et utiles.
+Mon objectif est d&apos;évoluer progressivement vers des systèmes plus fiables, orientés données, sécurité et intelligence artificielle appliquée à des problématiques concrètes.
+Merci pour votre attention.
+Repères de rythme
+Le texte complet est prévu pour environ 7 à 8 minutes si chaque partie est présentée calmement. Pour rester sous 10 minutes, il faut éviter d&apos;ajouter trop d&apos;exemples non prévus et garder les transitions courtes.
+
+Si le temps est court : réduire la partie sur les projets personnels.
+Si le jury demande des précisions : détailler GameConnect, le projet d&apos;agrégation ou la veille IA/cyberdéfense.
+Si une question porte sur le niveau technique : rester transparent sur les compétences en consolidation.
+Si une question porte sur l&apos;E5 : revenir au tableau de synthèse et aux preuves de compétences.
+

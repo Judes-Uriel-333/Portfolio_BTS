@@ -26,9 +26,9 @@ const references: Reference[] = [
         id: "1",
         title: "NIST - Draft Cyber AI Profile",
         url: "https://www.nist.gov/news-events/news/2025/12/draft-nist-guidelines-rethink-cybersecurity-ai-era",
-        type: "Cadre de reference",
-        date: "16 decembre 2025",
-        note: "Le NIST organise la cybersecurite liee a l'IA autour de trois axes : securiser l'IA, faire de la defense aidee par l'IA et contrer les attaques rendues possibles par l'IA.",
+        type: "Cadre de référence",
+        date: "16 décembre 2025",
+        note: "Le NIST organise la cybersécurité liée à l'IA autour de trois axes : sécuriser l'IA, faire de la défense aidée par l'IA et contrer les attaques rendues possibles par l'IA.",
     },
     {
         id: "2",
@@ -36,23 +36,23 @@ const references: Reference[] = [
         url: "https://www.nist.gov/publications/artificial-intelligence-risk-management-framework-generative-artificial-intelligence",
         type: "Gestion des risques",
         date: "26 juillet 2024",
-        note: "Le profil GAI du NIST rappelle que les risques doivent etre suivis tout au long du cycle de vie du systeme.",
+        note: "Le profil GAI du NIST rappelle que les risques doivent être suivis tout au long du cycle de vie du système.",
     },
     {
         id: "3",
         title: "ENISA - Securing Machine Learning Algorithms",
         url: "https://www.enisa.europa.eu/publications/securing-machine-learning-algorithms",
         type: "Rapport technique",
-        date: "14 decembre 2021",
-        note: "ENISA met en avant le data poisoning, les attaques adversariales et l'exfiltration de donnees comme risques majeurs.",
+        date: "14 décembre 2021",
+        note: "ENISA met en avant le data poisoning, les attaques adversariales et l'exfiltration de données comme risques majeurs.",
     },
     {
         id: "4",
         title: "CISA / NSA - Deploying AI Systems Securely",
         url: "https://www.cisa.gov/news-events/alerts/2024/04/15/joint-guidance-deploying-ai-systems-securely",
-        type: "Guide operationnel",
+        type: "Guide opérationnel",
         date: "15 avril 2024",
-        note: "Le guide insiste sur la confidentialite, l'integrite, la disponibilite et la capacite de proteger, detecter et repondre autour des systemes d'IA.",
+        note: "Le guide insiste sur la confidentialité, l'intégrité, la disponibilité et la capacité de protéger, détecter et répondre autour des systèmes d'IA.",
     },
     {
         id: "5",
@@ -60,7 +60,7 @@ const references: Reference[] = [
         url: "https://www.cisa.gov/news-events/news/cisa-jcdc-government-and-industry-partners-publish-ai-cybersecurity-collaboration-playbook",
         type: "Partage d'incidents",
         date: "14 janvier 2025",
-        note: "La defense de l'IA repose aussi sur la collaboration entre industriels, autorites et equipes de reponse.",
+        note: "La défense de l'IA repose aussi sur la collaboration entre industriels, autorités et équipes de réponse.",
     },
     {
         id: "6",
@@ -68,7 +68,7 @@ const references: Reference[] = [
         url: "https://www.cisa.gov/resources-tools/resources/ai-data-security-best-practices-securing-data-used-train-operate-ai-systems",
         type: "Bonnes pratiques",
         date: "22 mai 2025",
-        note: "CISA rappelle que la qualite et la securite des donnees conditionnent directement la fiabilite d'un systeme d'IA.",
+        note: "CISA rappelle que la qualité et la sécurité des données conditionnent directement la fiabilité d'un système d'IA.",
     },
     {
         id: "7",
@@ -76,7 +76,7 @@ const references: Reference[] = [
         url: "https://www.enisa.europa.eu/publications/multilayer-framework-for-good-cybersecurity-practices-for-ai",
         type: "Framework",
         date: "7 juin 2023",
-        note: "ENISA propose une approche en couches : fondations cyber, securite specifique a l'IA, puis exigences sectorielles.",
+        note: "ENISA propose une approche en couches : fondations cyber, sécurité spécifique à l'IA, puis exigences sectorielles.",
     },
     {
         id: "8",
@@ -84,7 +84,7 @@ const references: Reference[] = [
         url: "https://genai.owasp.org/resource/owasp-top-10-for-llm-applications-2025/",
         type: "Risques applicatifs",
         date: "17 novembre 2024",
-        note: "OWASP formalise les risques applicatifs lies aux LLM, dont la prompt injection et les sorties dangereuses.",
+        note: "OWASP formalise les risques applicatifs liés aux LLM, dont la prompt injection et les sorties dangereuses.",
     },
 ];
 
@@ -96,7 +96,7 @@ const referencesById = references.reduce<Record<string, Reference>>((acc, refere
 const keywords = [
     "SOC",
     "SIEM",
-    "Detection d'anomalies",
+    "Détection d'anomalies",
     "Threat hunting",
     "Prompt injection",
     "Data poisoning",
@@ -105,49 +105,49 @@ const keywords = [
 
 const useCases = [
     {
-        title: "Detection et priorisation",
-        text: "L'IA aide a faire ressortir des comportements inhabituels dans de grands volumes de logs.",
+        title: "Détection et priorisation",
+        text: "L'IA aide à faire ressortir des comportements inhabituels dans de grands volumes de logs.",
     },
     {
-        title: "Investigation assistee",
-        text: "Elle accelere la lecture d'incidents, la synthese d'evenements et la formulation de requetes d'analyse.",
+        title: "Investigation assistée",
+        text: "Elle accélère la lecture d'incidents, la synthèse d'événements et la formulation de requêtes d'analyse.",
     },
     {
-        title: "Automatisation controlee",
-        text: "Elle peut proposer un premier triage sur des taches repetitives avant validation humaine.",
+        title: "Automatisation contrôlée",
+        text: "Elle peut proposer un premier triage sur des tâches répétitives avant validation humaine.",
     },
     {
-        title: "Aide a la decision",
-        text: "Elle devient vraiment utile lorsqu'elle explique son resultat et laisse une trace exploitable.",
+        title: "Aide à la décision",
+        text: "Elle devient vraiment utile lorsqu'elle explique son résultat et laisse une trace exploitable.",
     },
 ];
 
 const workflow = [
-    "Collecter la telemetrie reseau, endpoint, cloud, messagerie et identite.",
-    "Correler et scorer les signaux pour faire ressortir les incidents prioritaires.",
-    "Faire qualifier les hypotheses par un analyste ou un administrateur.",
-    "Repondre de maniere tracable, avec validation humaine sur les actions critiques.",
+    "Collecter la télémétrie réseau, endpoint, cloud, messagerie et identité.",
+    "Corréler et scorer les signaux pour faire ressortir les incidents prioritaires.",
+    "Faire qualifier les hypothèses par un analyste ou un administrateur.",
+    "Répondre de manière traçable, avec validation humaine sur les actions critiques.",
 ];
 
 const projectSteps = [
-    "Centraliser des logs Windows, Linux et reseau dans un socle de supervision.",
-    "Definir quelques cas d'usage : phishing, connexion anormale, elevation suspecte.",
-    "Ajouter une couche IA pour resumer une alerte et proposer une priorite.",
-    "Mesurer le gain sur le temps de triage sans automatiser a l'aveugle la reponse.",
+    "Centraliser des logs Windows, Linux et réseau dans un socle de supervision.",
+    "Définir quelques cas d'usage : phishing, connexion anormale, élévation suspecte.",
+    "Ajouter une couche IA pour résumer une alerte et proposer une priorité.",
+    "Mesurer le gain sur le temps de triage sans automatiser à l'aveugle la réponse.",
 ];
 
 const strengths = [
     "Absorbe mieux le volume d'alertes.",
-    "Aide a detecter des signaux faibles.",
+    "Aide à détecter des signaux faibles.",
     "Accelere l'investigation et le threat hunting.",
     "Apporte un gain reel si la supervision reste humaine.",
 ];
 
 const vigilance = [
-    "Une IA mal alimentee peut produire de mauvaises decisions a grande echelle.",
-    "Les risques specifiques existent : prompt injection, poisoning, exfiltration, sorties trompeuses.",
-    "Un bon resultat de demonstration ne garantit pas un bon resultat en production.",
-    "Les actions critiques ne doivent pas etre laissees a une automatisation opaque.",
+    "Une IA mal alimentée peut produire de mauvaises décisions à grande échelle.",
+    "Les risques spécifiques existent : prompt injection, poisoning, exfiltration, sorties trompeuses.",
+    "Un bon résultat de démonstration ne garantit pas un bon résultat en production.",
+    "Les actions critiques ne doivent pas être laissées à une automatisation opaque.",
 ];
 
 function InlineReferences({ ids }: { ids: string[] }) {
@@ -195,25 +195,25 @@ export default function Veille() {
                                 Veille technologique
                             </p>
                             <h1 className="mt-3 text-4xl md:text-5xl font-bold leading-tight text-white">
-                                L'IA orientee vers la defense des systemes informatiques
+                                L'IA orientée vers la défense des systèmes informatiques
                             </h1>
                             <p className="mt-5 text-base md:text-lg text-slate-300 leading-relaxed max-w-3xl">
                                 J'aborde ici l'intelligence artificielle comme un outil d'assistance
-                                pour les equipes de securite : detection, priorisation, investigation
-                                et aide a la reponse, mais aussi comme une nouvelle surface de risque a
+                                pour les équipes de sécurité : détection, priorisation, investigation
+                                et aide à la réponse, mais aussi comme une nouvelle surface de risque à
                                 surveiller.
                             </p>
                         </div>
 
                         <div className="bg-[#0f0f14] border border-[#1b1b24] rounded-3xl p-6">
                             <h2 className="text-lg font-semibold text-cyan-200 mb-4">
-                                Fiche d'identite
+                                Fiche d'identité
                             </h2>
                             <div className="space-y-3 text-sm">
                                 <div className="grid grid-cols-[120px_1fr] gap-3 border-b border-slate-800 pb-3">
                                     <span className="text-gray-500 uppercase tracking-wide">Theme</span>
                                     <span className="text-gray-200">
-                                        Intelligence artificielle appliquee a la cyberdefense
+                                        Intelligence artificielle appliquée à la cyberdéfense
                                     </span>
                                 </div>
                                 <div className="grid grid-cols-[120px_1fr] gap-3 border-b border-slate-800 pb-3">
@@ -225,7 +225,7 @@ export default function Veille() {
                                     <span className="text-gray-200">Intermediaire</span>
                                 </div>
                                 <div className="grid grid-cols-[120px_1fr] gap-3">
-                                    <span className="text-gray-500 uppercase tracking-wide">Mots-cles</span>
+                                    <span className="text-gray-500 uppercase tracking-wide">Mots-clés</span>
                                     <div className="flex flex-wrap gap-2">
                                         {keywords.map((keyword) => (
                                             <span
@@ -250,16 +250,16 @@ export default function Veille() {
                                 1. Contexte et enjeux
                             </h2>
                             <p className="text-gray-300 leading-relaxed mb-4">
-                                Les equipes de securite doivent traiter des volumes de logs et
+                                Les équipes de sécurité doivent traiter des volumes de logs et
                                 d'alertes trop importants pour une analyse purement manuelle. Dans ce
                                 contexte, l'IA devient surtout interessante comme accelerateur de
-                                defense : elle aide a regrouper des evenements, prioriser des
+                                défense : elle aide à regrouper des événements, prioriser des
                                 incidents et faire ressortir des comportements inhabituels.
                             </p>
                             <p className="text-gray-300 leading-relaxed">
                                 Le cadrage qui m'a semble le plus pertinent est celui du NIST : il
-                                faut securiser les systemes d'IA, utiliser l'IA pour aider la
-                                cyberdefense et rester capable de contrer des attaques elles-memes
+                                faut sécuriser les systèmes d'IA, utiliser l'IA pour aider la
+                                cyberdéfense et rester capable de contrer des attaques elles-mêmes
                                 renforcees par l'IA.
                                 <InlineReferences ids={["1", "2"]} />
                             </p>
@@ -272,20 +272,20 @@ export default function Veille() {
                         <Brain className="w-6 h-6 text-violet-300 mt-1" />
                         <div className="w-full">
                             <h2 className="text-2xl font-semibold text-violet-200 mb-5">
-                                2. Concepts fondamentaux a assimiler
+                                2. Concepts fondamentaux à assimiler
                             </h2>
 
                             <div className="space-y-5">
                                 <div className="bg-[#0a0a0f] border border-[#1b1b24] rounded-2xl p-5">
                                     <h3 className="text-lg font-semibold text-gray-100 mb-2">
-                                        2.1 Ce que signifie "IA pour la defense"
+                                        2.1 Ce que signifie "IA pour la défense"
                                     </h3>
                                     <p className="text-sm text-gray-400 leading-relaxed">
                                         Ici, je ne parle pas seulement de chatbot. J'inclus
-                                        l'apprentissage automatique pour la detection ou la
+                                        l'apprentissage automatique pour la détection ou la
                                         classification, les assistants generatifs pour
-                                        l'investigation, et les automatismes guides sur les taches
-                                        repetitives de cyberdefense.
+                                        l'investigation, et les automatismes guidés sur les tâches
+                                        répétitives de cyberdéfense.
                                     </p>
                                 </div>
 
@@ -312,25 +312,25 @@ export default function Veille() {
 
                                 <div className="bg-[#0a0a0f] border border-[#1b1b24] rounded-2xl p-5">
                                     <h3 className="text-lg font-semibold text-gray-100 mb-2">
-                                        2.3 Limites et menaces specifiques
+                                        2.3 Limites et menaces spécifiques
                                     </h3>
                                     <div className="space-y-3 text-sm text-gray-400 leading-relaxed">
                                         <p>
                                             ENISA montre que le data poisoning, les attaques
-                                            adversariales et l'exfiltration de donnees peuvent
-                                            fragiliser un systeme de machine learning.
+                                            adversariales et l'exfiltration de données peuvent
+                                            fragiliser un système de machine learning.
                                             <InlineReferences ids={["3"]} />
                                         </p>
                                         <p>
                                             Pour les LLM, les risques applicatifs changent aussi :
                                             prompt injection, sorties dangereuses, fuite
-                                            d'informations et chainage d'outils mal securise.
+                                            d'informations et chaînage d'outils mal sécurisé.
                                             <InlineReferences ids={["8"]} />
                                         </p>
                                         <p>
                                             Pour moi, la bonne lecture est donc la suivante : une IA
-                                            peut aider a defendre un SI, mais elle doit elle-meme
-                                            etre traitee comme un composant sensible du SI.
+                                            peut aider à défendre un SI, mais elle doit elle-même
+                                            être traitée comme un composant sensible du SI.
                                             <InlineReferences ids={["4", "7"]} />
                                         </p>
                                     </div>
@@ -342,12 +342,12 @@ export default function Veille() {
                                     <TriangleAlert className="w-5 h-5 text-amber-300 mt-0.5" />
                                     <div>
                                         <h3 className="text-sm font-semibold text-amber-200 mb-2">
-                                            A retenir
+                                            À retenir
                                         </h3>
                                         <p className="text-sm text-amber-50/90 leading-relaxed">
-                                            En cyberdefense, une IA utile n'est pas celle qui decide
+                                            En cyberdéfense, une IA utile n'est pas celle qui décide
                                             seule. C'est celle qui accelere l'analyse, laisse des
-                                            traces verifiables et reste sous controle humain.
+                                            traces vérifiables et reste sous contrôle humain.
                                         </p>
                                     </div>
                                 </div>
@@ -378,17 +378,17 @@ export default function Veille() {
                             <div className="grid lg:grid-cols-2 gap-5">
                                 <div className="rounded-2xl border border-slate-800 bg-[#0a0a0f] p-5">
                                     <h3 className="text-lg font-semibold text-gray-100 mb-3">
-                                        3.1 Ce qui doit etre protege en premier
+                                        3.1 Ce qui doit être protégé en premier
                                     </h3>
                                     <ul className="space-y-2 text-sm text-gray-400">
-                                        <li>Les donnees d'entree et leur integrite</li>
-                                        <li>Les acces aux modeles, API et connecteurs</li>
+                                        <li>Les données d'entrée et leur intégrité</li>
+                                        <li>Les accès aux modèles, API et connecteurs</li>
                                         <li>Les prompts, sorties et traces d'audit</li>
                                         <li>La supervision humaine et les mecanismes d'arbitrage</li>
                                     </ul>
                                     <p className="mt-4 text-sm text-gray-400 leading-relaxed">
-                                        CISA insiste particulierement sur la securite des donnees qui
-                                        servent a entrainer et faire fonctionner l'IA.
+                                        CISA insiste particulièrement sur la sécurité des données qui
+                                        servent à entraîner et faire fonctionner l'IA.
                                         <InlineReferences ids={["6"]} />
                                     </p>
                                 </div>
@@ -399,14 +399,14 @@ export default function Veille() {
                                     </h3>
                                     <p className="text-sm text-gray-400 leading-relaxed mb-3">
                                         L'approche la plus solide n'est pas de tout miser sur l'IA,
-                                        mais de superposer une hygiene cyber classique, des controles
-                                        specifiques a l'IA et un cadre adapte au contexte metier.
+                                        mais de superposer une hygiène cyber classique, des contrôles
+                                        spécifiques à l'IA et un cadre adapté au contexte métier.
                                         <InlineReferences ids={["4", "7"]} />
                                     </p>
                                     <p className="text-sm text-gray-400 leading-relaxed">
-                                        Cela rejoint bien l'idee de defense en profondeur : l'IA
-                                        doit etre pensee comme un composant du SI, pas comme un bloc
-                                        magique en dehors du perimetre securite.
+                                        Cela rejoint bien l'idée de défense en profondeur : l'IA
+                                        doit être pensée comme un composant du SI, pas comme un bloc
+                                        magique en dehors du périmètre sécurité.
                                     </p>
                                 </div>
                             </div>
@@ -429,7 +429,7 @@ export default function Veille() {
                                     </h3>
                                     <p className="text-sm text-gray-400 leading-relaxed">
                                         Les assistants en langage naturel pour l'investigation et le
-                                        threat hunting repondent a un vrai besoin de productivite des
+                                        threat hunting répondent à un vrai besoin de productivité des
                                         analystes.
                                         <InlineReferences ids={["1"]} />
                                     </p>
@@ -440,7 +440,7 @@ export default function Veille() {
                                         4.2 Defense collective
                                     </h3>
                                     <p className="text-sm text-gray-400 leading-relaxed">
-                                        La defense de l'IA progresse aussi grace au partage de cas
+                                        La défense de l'IA progresse aussi grâce au partage de cas
                                         reels, d'incidents et de bonnes pratiques entre acteurs.
                                         <InlineReferences ids={["5"]} />
                                     </p>
@@ -448,11 +448,11 @@ export default function Veille() {
 
                                 <div className="rounded-2xl border border-slate-800 bg-[#0a0a0f] p-5">
                                     <h3 className="text-lg font-semibold text-gray-100 mb-3">
-                                        4.3 Gouvernance des donnees
+                                        4.3 Gouvernance des données
                                     </h3>
                                     <p className="text-sm text-gray-400 leading-relaxed">
                                         Plus les usages montent en criticite, plus la provenance, la
-                                        qualite des donnees et la tracabilite des sorties deviennent
+                                        qualité des données et la traçabilité des sorties deviennent
                                         centrales.
                                         <InlineReferences ids={["2", "6", "7"]} />
                                     </p>
@@ -467,7 +467,7 @@ export default function Veille() {
                         <BookOpen className="w-6 h-6 text-pink-300 mt-1" />
                         <div className="w-full">
                             <h2 className="text-2xl font-semibold text-pink-200 mb-5">
-                                5. Mission / Projet : application a mon parcours
+                                5. Mission / Projet : application à mon parcours
                             </h2>
 
                             <div className="grid lg:grid-cols-[1.1fr_0.9fr] gap-5">
@@ -476,15 +476,15 @@ export default function Veille() {
                                         5.1 Ce que cette veille m'apporte
                                     </h3>
                                     <p className="text-sm text-gray-400 leading-relaxed mb-3">
-                                        Cette veille renforce mon interet pour la fiabilite des
-                                        donnees, l'observabilite, l'automatisation raisonnee et la
-                                        securisation des applications. Elle relie developpement,
-                                        supervision, cyberdefense et analyse des risques.
+                                        Cette veille renforce mon intérêt pour la fiabilité des
+                                        données, l'observabilité, l'automatisation raisonnée et la
+                                        sécurisation des applications. Elle relie développement,
+                                        supervision, cyberdéfense et analyse des risques.
                                     </p>
                                     <p className="text-sm text-gray-400 leading-relaxed">
                                         Dans une logique BTS SIO SLAM, je trouve ce sujet pertinent
                                         parce qu'il combine comprehension technique, conception de
-                                        solutions utiles et maitrise des limites d'un systeme.
+                                        solutions utiles et maîtrise des limites d'un système.
                                     </p>
                                 </div>
 
@@ -508,8 +508,8 @@ export default function Veille() {
                                     {[
                                         "Les alertes prioritaires sont expliquees clairement et pas seulement notees par un score opaque.",
                                         "Le temps de qualification d'un incident diminue sans perte de rigueur.",
-                                        "Les donnees, prompts, acces API et sorties sont journalises.",
-                                        "Les actions sensibles restent validees par un humain.",
+                                        "Les données, prompts, accès API et sorties sont journalisés.",
+                                        "Les actions sensibles restent validées par un humain.",
                                     ].map((criterion) => (
                                         <div
                                             key={criterion}
@@ -526,7 +526,7 @@ export default function Veille() {
 
                 <section className="mb-8 bg-[#0f0f14] border border-[#1b1b24] rounded-2xl p-6">
                     <h2 className="text-2xl font-semibold text-cyan-200 mb-5">
-                        6. Ressources de reference
+                        6. Ressources de référence
                     </h2>
 
                     <div className="overflow-x-auto rounded-2xl border border-slate-800">
@@ -567,16 +567,16 @@ export default function Veille() {
                     <div className="mt-5 rounded-2xl border border-blue-700/30 bg-blue-500/10 p-5">
                         <h3 className="text-sm font-semibold text-blue-200 mb-2">Bonus</h3>
                         <p className="text-sm text-blue-50/90 leading-relaxed">
-                            Les pistes que je veux continuer a suivre sont les assistants SOC,
-                            l'evaluation securitaire des LLM, la qualite des donnees de training et
-                            les methodes de red teaming appliquees aux outils IA relies au SI.
+                            Les pistes que je veux continuer à suivre sont les assistants SOC,
+                            l'évaluation sécuritaire des LLM, la qualité des données de training et
+                            les méthodes de red teaming appliquées aux outils IA reliés au SI.
                         </p>
                     </div>
                 </section>
 
                 <section className="bg-[#0f0f14] border border-[#1b1b24] rounded-2xl p-6">
                     <h2 className="text-2xl font-semibold text-emerald-200 mb-5">
-                        7. Points cles a retenir
+                        7. Points clés à retenir
                     </h2>
 
                     <div className="grid lg:grid-cols-2 gap-5">

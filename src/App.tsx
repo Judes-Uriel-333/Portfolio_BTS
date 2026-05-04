@@ -8,6 +8,8 @@ import CV from "./pages/CV";
 import Certifications from "./pages/Certifications";
 import Veille from "./pages/Veille";
 import BTSE6 from "./pages/BTSE6";
+import ProjectDetail from "./pages/ProjectDetail";
+import TableauSynthese from "./pages/TableauSynthese";
 
 function App() {
   return (
@@ -17,7 +19,9 @@ function App() {
         <Route path="/apropos" element={<Apropos />} />
         <Route path="/competences" element={<Competences />} />
         <Route path="/projets" element={<Projets />} />
+        <Route path="/projets/tableau-synthese" element={<TableauSynthese />} />
         <Route path="/projets/bts-e6" element={<BTSE6 />} />
+        <Route path="/projets/:projectId" element={<ProjectDetail />} />
         <Route path="/contact" element={<Contact />} />
         <Route path="/cv" element={<CV />} />
         <Route path="/certifications" element={<Certifications />} />

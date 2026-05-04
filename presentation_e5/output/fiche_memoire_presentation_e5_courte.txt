@@ -1,0 +1,183 @@
+Fiche memoire courte - Oral E5 BTS SIO SLAM
+Angoran Moye Judes-Uriel Stephanas
+
+Objectif : tenir 7 a 8 minutes, sans lire.
+Structure a garder : contexte -> projets -> competences -> orientation.
+
+============================================================
+0. FIL CONDUCTEUR GENERAL
+============================================================
+
+Phrase guide :
+"Mon portfolio montre une progression : apprentissage des bases, projets en formation, experiences professionnelles, veille technologique et orientation vers la Data / IA."
+
+Ne pas oublier :
+- Je ne me presente pas comme expert.
+- Je montre une progression serieuse.
+- Je relie toujours les projets aux competences BTS.
+
+============================================================
+1. INTRODUCTION - 30 secondes
+============================================================
+
+- Nom : Angoran Moye Judes-Uriel Stephanas.
+- BTS SIO option SLAM, Institut F2I, session 2026.
+- Presentation : portfolio, tableau de synthese, projets, veille, orientation.
+
+Transition :
+"Je vais commencer par mon profil."
+
+============================================================
+2. PROFIL + PARCOURS - 1 minute
+============================================================
+
+Mots-cles :
+- Profil en construction serieuse.
+- Comprendre avant de complexifier.
+- Besoin -> code -> donnees -> maintenabilite.
+- Bac scientifique.
+- Decouverte de Python.
+- BTS SIO SLAM : developpement, bases de donnees, conception, mode projet.
+
+Transition :
+"Ce parcours se voit dans les realisations que j'ai choisies."
+
+============================================================
+3. TABLEAU DE SYNTHESE - 1 minute
+============================================================
+
+Idee principale :
+- Ce n'est pas une simple liste de projets.
+- C'est une preuve organisee des competences.
+
+Competences a citer :
+- Gerer le patrimoine informatique.
+- Repondre aux demandes et incidents.
+- Developper la presence en ligne.
+- Travailler en mode projet.
+- Mettre a disposition un service.
+- Organiser son developpement professionnel.
+
+Phrase utile :
+"J'ai choisi ces projets parce qu'ils montrent plusieurs competences du BTS."
+
+Transition :
+"Je vais maintenant presenter les projets les plus representatifs."
+
+============================================================
+4. PROJETS EN FORMATION - 1 minute 30
+============================================================
+
+GameConnect :
+- Reseau social gamers.
+- PHP / MySQL.
+- Authentification, publications, likes, commentaires, profil.
+- Competences : back-end, SQL, sessions, securite web.
+
+Hash Python :
+- SHA-256.
+- Verification d'integrite de fichiers.
+- Competences : Python, fichiers, securite.
+
+Portfolio :
+- CV, projets, certifications, veille, tableau de synthese.
+- Presence en ligne et identite professionnelle.
+
+Transition :
+"Ces projets ont ete completes par mes experiences professionnelles."
+
+============================================================
+5. EXPERIENCES PROFESSIONNELLES - 1 minute 30
+============================================================
+
+Stage A'Numerique :
+- Mai a juillet 2025.
+- React.js / Next.js.
+- Front-end, organisation du code, lisibilite.
+
+Mission plateforme d'agregation :
+- Decembre 2025 a janvier 2026.
+- Page Salons d'emploi.
+- Flux : scraping -> stockage -> seeding -> affichage.
+- Apport : fiabilite des donnees et coherence entre environnements.
+
+Transition :
+"En parallele, j'ai developpe des projets personnels orientes IA et donnees."
+
+============================================================
+6. PROJETS PERSONNELS IA / DONNEES - 1 minute
+============================================================
+
+AIAuditOps :
+- Gouvernance et audit de systemes IA.
+- Inventaire, risques, controles, preuves.
+- Core fonctionnel, modules avances encore en cours.
+
+MailGuardAI :
+- MVP connecte a Gmail.
+- Analyse et classification d'emails.
+- Dashboard, filtres, niveau de risque.
+
+Phrase importante :
+"Je les presente comme des projets de progression, sans les survendre."
+
+Transition :
+"Cette orientation rejoint ma veille technologique."
+
+============================================================
+7. VEILLE + CERTIFICATIONS - 1 minute
+============================================================
+
+Veille :
+- IA pour la defense des systemes informatiques.
+- Detection d'anomalies.
+- Priorisation des alertes.
+- Synthese d'incidents.
+- Aide a l'investigation.
+
+Limite importante :
+- L'IA assiste, mais l'humain decide.
+- Traces verifiables et controle humain.
+
+Certifications :
+- SecNumacademie ANSSI.
+- OpenClassrooms Python.
+- Objectifs futurs : React, cybersecurite, Docker/cloud, IA appliquee.
+
+Transition :
+"Je termine avec mon orientation apres le BTS."
+
+============================================================
+8. ORIENTATION + CONCLUSION - 1 minute
+============================================================
+
+Apres le BTS :
+- Bac+3 vise.
+- Bachelor / licence pro.
+- Full-stack, Data / IA, cybersecurite applicative.
+
+Moyen terme :
+- Developpeur full-stack oriente produit.
+
+Long terme :
+- Monter une startup.
+- Creer des solutions utiles, solides, orientees donnees, IA et securite.
+
+Conclusion :
+"Mon portfolio montre une progression construite par les projets. Je veux continuer a progresser dans le developpement applicatif, avec une ouverture vers les donnees, l'IA et la securite."
+
+Fin :
+"Merci pour votre attention."
+
+============================================================
+SI JE BLOQUE
+============================================================
+
+Revenir a :
+- Contexte.
+- Ce que j'ai fait.
+- Competence travaillee.
+- Limite ou amelioration.
+
+Phrase de secours :
+"Pour revenir a l'idee principale, ce projet m'a surtout permis de travailler..."

@@ -1,0 +1,102 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<office:document-content
+  xmlns:office="urn:oasis:names:tc:opendocument:xmlns:office:1.0"
+  xmlns:style="urn:oasis:names:tc:opendocument:xmlns:style:1.0"
+  xmlns:text="urn:oasis:names:tc:opendocument:xmlns:text:1.0"
+  xmlns:fo="urn:oasis:names:tc:opendocument:xmlns:xsl-fo-compatible:1.0"
+  xmlns:svg="urn:oasis:names:tc:opendocument:xmlns:svg-compatible:1.0"
+  office:version="1.3">
+  <office:font-face-decls>
+    <style:font-face style:name="Aptos" svg:font-family="Aptos"/>
+    <style:font-face style:name="Bahnschrift" svg:font-family="Bahnschrift"/>
+    <style:font-face style:name="Cascadia Code" svg:font-family="Cascadia Code"/>
+  </office:font-face-decls>
+  <office:body>
+    <office:text>
+<text:p text:style-name="CoverEyebrow">Support de suivi pour le jury</text:p>
+<text:p text:style-name="CoverTitle">Présentation E5</text:p>
+<text:p text:style-name="CoverSubtitle">BTS SIO SLAM</text:p>
+<text:p text:style-name="CoverRule">━━━━━━</text:p>
+<text:p text:style-name="CoverMeta">Angoran Moyé Judes-Uriel Stéphanas</text:p>
+<text:p text:style-name="CoverMeta">Institut F2I - Session 2026</text:p>
+<text:p text:style-name="EyebrowCyanBreak">Présentation E5 - BTS SIO SLAM</text:p>
+<text:p text:style-name="SlideTitle">Fil conducteur</text:p>
+<text:p text:style-name="SlideSubtitle">Une lecture simple du parcours : bases, projets, professionnalisation, orientation.</text:p>
+<text:p text:style-name="Bullet"><text:span text:style-name="DotCyan">•</text:span><text:s/>Profil personnel et manière de progresser</text:p>
+<text:p text:style-name="Bullet"><text:span text:style-name="DotCyan">•</text:span><text:s/>Parcours scolaire et méthode de travail</text:p>
+<text:p text:style-name="Bullet"><text:span text:style-name="DotCyan">•</text:span><text:s/>Stages, projets et compétences mobilisées</text:p>
+<text:p text:style-name="Bullet"><text:span text:style-name="DotCyan">•</text:span><text:s/>Certifications, veille technologique et suite du parcours</text:p>
+<text:p text:style-name="SmallNote">Objectif : mettre en évidence une progression cohérente.</text:p>
+<text:p text:style-name="EyebrowGreenBreak">Présentation E5 - BTS SIO SLAM</text:p>
+<text:p text:style-name="SlideTitle">Profil personnel</text:p>
+<text:p text:style-name="SlideSubtitle">Un profil en construction sérieuse, centré sur la compréhension et la structure.</text:p>
+<text:p text:style-name="Bullet"><text:span text:style-name="DotGreen">•</text:span><text:s/>Comprendre les fondations avant d’aller vers des sujets plus complexes</text:p>
+<text:p text:style-name="Bullet"><text:span text:style-name="DotGreen">•</text:span><text:s/>Relier besoin, code, données et maintenabilité</text:p>
+<text:p text:style-name="Bullet"><text:span text:style-name="DotGreen">•</text:span><text:s/>Construire des solutions utiles, lisibles et évolutives</text:p>
+<text:p text:style-name="Bullet"><text:span text:style-name="DotGreen">•</text:span><text:s/>Présenter les projets avec transparence sur leur maturité</text:p>
+<text:p text:style-name="EyebrowAmberBreak">Présentation E5 - BTS SIO SLAM</text:p>
+<text:p text:style-name="SlideTitle">Parcours scolaire</text:p>
+<text:p text:style-name="SlideSubtitle">De la logique scientifique aux bases du développement applicatif.</text:p>
+<text:p text:style-name="BlockTitleAmber">Étapes</text:p>
+<text:p text:style-name="Bullet"><text:span text:style-name="DotAmber">•</text:span><text:s/>Baccalauréat scientifique</text:p>
+<text:p text:style-name="Bullet"><text:span text:style-name="DotAmber">•</text:span><text:s/>Découverte autonome de Python</text:p>
+<text:p text:style-name="Bullet"><text:span text:style-name="DotAmber">•</text:span><text:s/>BTS SIO option SLAM à l’Institut F2I</text:p>
+<text:p text:style-name="BlockTitleAmber">Méthode travaillée</text:p>
+<text:p text:style-name="Bullet"><text:span text:style-name="DotAmber">•</text:span><text:s/>Identifier le besoin</text:p>
+<text:p text:style-name="Bullet"><text:span text:style-name="DotAmber">•</text:span><text:s/>Choisir une solution</text:p>
+<text:p text:style-name="Bullet"><text:span text:style-name="DotAmber">•</text:span><text:s/>Développer, tester et documenter</text:p>
+<text:p text:style-name="Bullet"><text:span text:style-name="DotAmber">•</text:span><text:s/>Présenter un résultat exploitable</text:p>
+<text:p text:style-name="EyebrowCyanBreak">Présentation E5 - BTS SIO SLAM</text:p>
+<text:p text:style-name="SlideTitle">Stages et expériences</text:p>
+<text:p text:style-name="SlideSubtitle">L’apport principal : passer d’un cadre scolaire à un contexte plus concret.</text:p>
+<text:p text:style-name="Bullet"><text:span text:style-name="DotCyan">•</text:span><text:s/>A’Numérique : développement web avec React.js et Next.js</text:p>
+<text:p text:style-name="Bullet"><text:span text:style-name="DotCyan">•</text:span><text:s/>Travail sur les fonctionnalités front-end et la lisibilité du code</text:p>
+<text:p text:style-name="Bullet"><text:span text:style-name="DotCyan">•</text:span><text:s/>Projet d’agrégation : scraping → stockage → seeding → affichage</text:p>
+<text:p text:style-name="Bullet"><text:span text:style-name="DotCyan">•</text:span><text:s/>Compétence clé : fiabiliser les données entre les environnements</text:p>
+<text:p text:style-name="EyebrowGreenBreak">Présentation E5 - BTS SIO SLAM</text:p>
+<text:p text:style-name="SlideTitle">Projets principaux</text:p>
+<text:p text:style-name="SlideSubtitle">Des projets choisis comme preuves de compétences, avec un niveau de maturité assumé.</text:p>
+<text:p text:style-name="BlockTitleGreen">Formation / BTS</text:p>
+<text:p text:style-name="Bullet"><text:span text:style-name="DotGreen">•</text:span><text:s/>GameConnect : réseau social PHP / MySQL</text:p>
+<text:p text:style-name="Bullet"><text:span text:style-name="DotGreen">•</text:span><text:s/>Hash Python : intégrité de fichiers SHA-256</text:p>
+<text:p text:style-name="Bullet"><text:span text:style-name="DotGreen">•</text:span><text:s/>Portfolio : CV, projets, veille et tableau de synthèse</text:p>
+<text:p text:style-name="BlockTitleGreen">Orientation personnelle</text:p>
+<text:p text:style-name="Bullet"><text:span text:style-name="DotGreen">•</text:span><text:s/>AIAuditOps : gouvernance et audit de systèmes IA</text:p>
+<text:p text:style-name="Bullet"><text:span text:style-name="DotGreen">•</text:span><text:s/>MailGuardAI : analyse d’emails et niveau de risque</text:p>
+<text:p text:style-name="Bullet"><text:span text:style-name="DotGreen">•</text:span><text:s/>Projets IA / données présentés sans les survendre</text:p>
+<text:p text:style-name="EyebrowAmberBreak">Présentation E5 - BTS SIO SLAM</text:p>
+<text:p text:style-name="SlideTitle">Certifications et apprentissages</text:p>
+<text:p text:style-name="SlideSubtitle">Un complément au portfolio, orienté cybersécurité, développement et IA appliquée.</text:p>
+<text:p text:style-name="BlockTitleAmber">Validé</text:p>
+<text:p text:style-name="Bullet"><text:span text:style-name="DotAmber">•</text:span><text:s/>SecNumacadémie - ANSSI</text:p>
+<text:p text:style-name="Bullet"><text:span text:style-name="DotAmber">•</text:span><text:s/>OpenClassrooms : bases du langage Python</text:p>
+<text:p text:style-name="BlockTitleAmber">Prévu / visé</text:p>
+<text:p text:style-name="Bullet"><text:span text:style-name="DotAmber">•</text:span><text:s/>React.js et Next.js</text:p>
+<text:p text:style-name="Bullet"><text:span text:style-name="DotAmber">•</text:span><text:s/>Fondamentaux cybersécurité</text:p>
+<text:p text:style-name="Bullet"><text:span text:style-name="DotAmber">•</text:span><text:s/>Docker, cloud et déploiement</text:p>
+<text:p text:style-name="Bullet"><text:span text:style-name="DotAmber">•</text:span><text:s/>Intelligence artificielle appliquée</text:p>
+<text:p text:style-name="EyebrowCyanBreak">Présentation E5 - BTS SIO SLAM</text:p>
+<text:p text:style-name="SlideTitle">Veille technologique</text:p>
+<text:p text:style-name="SlideSubtitle">Thème : l’IA orientée vers la défense des systèmes informatiques.</text:p>
+<text:p text:style-name="Bullet"><text:span text:style-name="DotCyan">•</text:span><text:s/>Détection d’anomalies et priorisation des alertes</text:p>
+<text:p text:style-name="Bullet"><text:span text:style-name="DotCyan">•</text:span><text:s/>Synthèse d’incidents et aide à l’investigation</text:p>
+<text:p text:style-name="Bullet"><text:span text:style-name="DotCyan">•</text:span><text:s/>Automatisation utile, mais avec contrôle humain</text:p>
+<text:p text:style-name="Bullet"><text:span text:style-name="DotCyan">•</text:span><text:s/>Principe retenu : l’IA assiste, l’humain décide</text:p>
+<text:p text:style-name="EyebrowGreenBreak">Présentation E5 - BTS SIO SLAM</text:p>
+<text:p text:style-name="SlideTitle">Orientation après le BTS</text:p>
+<text:p text:style-name="SlideSubtitle">Construire une suite logique entre études, professionnalisation et ambition entrepreneuriale.</text:p>
+<text:p text:style-name="Bullet"><text:span text:style-name="DotGreen">•</text:span><text:s/>Poursuite visée : Bac+3, Bachelor ou Licence professionnelle</text:p>
+<text:p text:style-name="Bullet"><text:span text:style-name="DotGreen">•</text:span><text:s/>Axes : full-stack, data / IA, cybersécurité applicative</text:p>
+<text:p text:style-name="Bullet"><text:span text:style-name="DotGreen">•</text:span><text:s/>Objectif moyen terme : développeur full-stack orienté produit</text:p>
+<text:p text:style-name="Bullet"><text:span text:style-name="DotGreen">•</text:span><text:s/>Ambition long terme : monter une startup</text:p>
+<text:p text:style-name="EyebrowCyanBreak">Présentation E5 - BTS SIO SLAM</text:p>
+<text:p text:style-name="SlideTitle">Conclusion</text:p>
+<text:p text:style-name="SlideSubtitle">Ce que le portfolio doit faire ressortir devant le jury.</text:p>
+<text:p text:style-name="Bullet"><text:span text:style-name="DotCyan">•</text:span><text:s/>Une progression construite par les projets</text:p>
+<text:p text:style-name="Bullet"><text:span text:style-name="DotCyan">•</text:span><text:s/>Des compétences techniques en consolidation</text:p>
+<text:p text:style-name="Bullet"><text:span text:style-name="DotCyan">•</text:span><text:s/>Une orientation claire : données, IA et sécurité</text:p>
+<text:p text:style-name="Bullet"><text:span text:style-name="DotCyan">•</text:span><text:s/>Une finalité : créer des solutions utiles et solides</text:p>
+<text:p text:style-name="SmallNote">Merci pour votre attention.</text:p>
+    </office:text>
+  </office:body>
+</office:document-content>

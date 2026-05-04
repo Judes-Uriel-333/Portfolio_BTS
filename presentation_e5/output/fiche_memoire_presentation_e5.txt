@@ -1,0 +1,291 @@
+Fiche memoire - Presentation orale E5 BTS SIO SLAM
+Angoran Moye Judes-Uriel Stephanas
+
+Objectif : garder le fil pendant les 10 minutes maximum.
+Ne pas lire mot a mot. Utiliser cette fiche comme une carte de route.
+
+============================================================
+1. INTRODUCTION
+============================================================
+
+A dire :
+- Bonjour, je m'appelle Angoran Moye Judes-Uriel Stephanas.
+- Je suis etudiant en BTS SIO option SLAM a l'Institut F2I, session 2026.
+- Je vais presenter mon parcours, mon portfolio, mon tableau de synthese, mes projets, ma veille et mon orientation.
+
+Idee principale :
+- Ne pas lister des projets.
+- Montrer une progression : bases -> projets -> experiences -> veille -> orientation.
+
+Transition :
+- "Je vais commencer par mon profil, parce qu'il explique la logique de mon portfolio."
+
+============================================================
+2. PROFIL PERSONNEL
+============================================================
+
+Mots-cles :
+- Profil en construction serieuse.
+- Progression avec methode.
+- Comprendre avant de complexifier.
+- Besoin, code, donnees, maintenabilite.
+
+A ne pas oublier :
+- Ne pas se presenter comme expert.
+- Montrer que je suis lucide sur mon niveau.
+- Insister sur la structure et la comprehension.
+
+Transition :
+- "Ce positionnement s'est construit progressivement dans mon parcours scolaire."
+
+============================================================
+3. PARCOURS SCOLAIRE
+============================================================
+
+Mots-cles :
+- Baccalaureat scientifique.
+- Decouverte de Python.
+- BTS SIO option SLAM.
+- Developpement d'applications.
+- Bases de donnees.
+- Conception.
+- Mode projet.
+
+Methode a citer :
+- Comprendre le besoin.
+- Choisir une solution.
+- Developper.
+- Tester.
+- Documenter.
+- Presenter.
+
+Transition :
+- "Cette formation prend surtout du sens a travers les realisations que j'ai selectionnees dans mon tableau de synthese."
+
+============================================================
+4. TABLEAU DE SYNTHESE / COMPETENCES
+============================================================
+
+Idee principale :
+- Le tableau de synthese n'est pas juste une liste.
+- C'est une preuve organisee des competences.
+
+Competences a citer :
+- Gerer le patrimoine informatique.
+- Repondre aux demandes et incidents.
+- Developper la presence en ligne.
+- Travailler en mode projet.
+- Mettre a disposition un service informatique.
+- Organiser son developpement professionnel.
+
+Phrase utile :
+- "J'ai choisi mes projets parce qu'ils permettent de montrer plusieurs competences du BTS, pas seulement parce qu'ils sont visibles ou esthetiques."
+
+Transition :
+- "Je vais maintenant parler des projets les plus representatifs."
+
+============================================================
+5. PROJETS EN FORMATION
+============================================================
+
+Projet 1 : GameConnect
+- Reseau social de gamers.
+- PHP / MySQL.
+- Inscription, authentification, publications, likes, commentaires, profil.
+- Competences : back-end, base de donnees, sessions, securite web.
+
+Projet 2 : Hash Python
+- Verification d'integrite de fichiers.
+- SHA-256.
+- Detecter si un fichier a ete modifie.
+- Competences : Python, fichiers, hash, securite.
+
+Projet 3 : Portfolio
+- Centralise CV, projets, certifications, veille, tableau de synthese.
+- Presence en ligne.
+- Identite professionnelle.
+- Mise a disposition des preuves.
+
+Projet cybersécurite :
+- Broken Access Control.
+- Comprendre les risques d'acces non autorise.
+- Importance des controles cote serveur.
+
+Transition :
+- "Ces projets scolaires ont ete completes par mes experiences professionnelles."
+
+============================================================
+6. EXPERIENCES PROFESSIONNELLES
+============================================================
+
+Experience 1 : Stage A'Numerique
+- Mai 2025 a juillet 2025.
+- React.js / Next.js.
+- Fonctionnalites front-end.
+- Organisation du code.
+- Lisibilite des composants.
+- Decouverte du contexte professionnel.
+
+Experience 2 : Plateforme d'agregation
+- Decembre 2025 a janvier 2026.
+- Page Salons d'emploi.
+- Flux de donnees complet.
+
+Flux a retenir :
+- Scraping -> stockage -> seeding -> affichage.
+
+Apport principal :
+- La difficulte n'est pas seulement l'interface.
+- Il faut fiabiliser les donnees.
+- Il faut garder une coherence entre les environnements.
+
+Transition :
+- "En parallele de ces projets lies au BTS, j'ai aussi travaille sur des projets personnels orientes donnees et IA."
+
+============================================================
+7. PROJETS PERSONNELS / IA / DONNEES
+============================================================
+
+Projet 1 : AIAuditOps
+- Gouvernance et audit de systemes IA.
+- Inventaire de systemes IA.
+- Analyses de risque.
+- Controles.
+- Preuves d'audit.
+- Core fonctionnel, modules avances encore en cours.
+
+Projet 2 : MailGuardAI
+- MVP local connecte a Gmail.
+- Analyse d'emails.
+- Classification par intention ou niveau de risque.
+- Dashboard avec statistiques et filtres.
+- Technologies : Flask, SQLite, React, Gmail API, IA.
+
+A ne pas survendre :
+- Dire que ces projets montrent une orientation.
+- Ne pas dire que tout est finalise.
+- Rester prudent et transparent.
+
+Transition :
+- "Cette orientation vers l'IA et la securite se retrouve aussi dans ma veille technologique."
+
+============================================================
+8. VEILLE TECHNOLOGIQUE
+============================================================
+
+Theme :
+- IA orientee vers la defense des systemes informatiques.
+
+Axes :
+- Detection d'anomalies.
+- Priorisation des alertes.
+- Synthese d'incidents.
+- Aide a l'investigation.
+- Automatisation.
+- Aide a la decision.
+
+Point important :
+- L'IA ne doit pas decider seule.
+- Elle doit assister l'humain.
+- Elle doit laisser des traces verifiables.
+- Elle doit rester sous controle.
+
+Sources a citer si besoin :
+- NIST.
+- ENISA.
+- CISA / NSA.
+- OWASP Top 10 LLM.
+- ANSSI pour les bases cyber.
+
+Transition :
+- "Cette veille est directement liee a mon orientation apres le BTS."
+
+============================================================
+9. CERTIFICATIONS ET DEVELOPPEMENT PROFESSIONNEL
+============================================================
+
+Certifications / apprentissages valides :
+- SecNumacademie ANSSI.
+- OpenClassrooms : bases du langage Python.
+
+Certifications / apprentissages vises :
+- React / Next.js.
+- Fondamentaux cybersécurite.
+- Docker / cloud.
+- IA appliquee.
+
+Idee principale :
+- Ne pas accumuler des certificats pour remplir un CV.
+- Choisir des apprentissages coherents avec mon projet.
+
+Transition :
+- "Je vais terminer avec mon orientation apres le BTS."
+
+============================================================
+10. ORIENTATION APRES LE BTS
+============================================================
+
+Court terme :
+- Poursuite vers Bac+3.
+- Bachelor ou licence professionnelle.
+- Developpement logiciel, full-stack, data / IA, cybersecurite applicative.
+
+Moyen terme :
+- Devenir developpeur full-stack oriente produit.
+- Comprendre interface, back-end, donnees, utilisateurs et contraintes metier.
+
+Long terme :
+- Monter une startup.
+- Construire progressivement.
+- Creer des solutions utiles, solides, orientees donnees, IA, automatisation et securite.
+
+Transition :
+- "Pour conclure, mon portfolio montre surtout une progression."
+
+============================================================
+11. CONCLUSION
+============================================================
+
+Idee principale :
+- Progression construite par les projets.
+- Recherche de structure.
+- Comprendre le besoin.
+- Organiser le code.
+- Gerer les donnees.
+- Rendre le resultat exploitable.
+
+Phrase finale possible :
+- "Aujourd'hui, je veux continuer a progresser dans le developpement applicatif, avec une ouverture forte vers les donnees, l'intelligence artificielle et la securite. Mon objectif est de construire, a terme, des solutions utiles et solides."
+
+Fin :
+- "Merci pour votre attention."
+
+============================================================
+PHRASES DE SECOURS SI JE BLOQUE
+============================================================
+
+Si je perds le fil :
+- "Pour revenir a l'idee principale, ce projet m'a surtout permis de travailler..."
+
+Si je ne connais pas une reponse :
+- "Je n'ai pas la reponse exacte en tete, mais je peux raisonner a partir du projet."
+
+Si on me demande une limite :
+- "Avec le recul, la principale limite est..."
+
+Si on me demande une amelioration :
+- "La prochaine etape logique serait..."
+
+Si on me demande mon niveau :
+- "Je suis encore en consolidation sur ce point, mais ce projet m'a permis de progresser sur..."
+
+============================================================
+RAPPEL IMPORTANT
+============================================================
+
+- Parler lentement.
+- Ne pas lire.
+- Regarder le jury.
+- Rester honnete sur ce qui est fini ou non.
+- Toujours relier un projet a une competence.
+- Si je suis stresse, revenir a la structure : contexte -> action -> technique -> recul.

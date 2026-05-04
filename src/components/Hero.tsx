@@ -47,7 +47,7 @@ const Hero: React.FC = () => {
 
               <p className="text-lg sm:text-xl text-gray-300 leading-relaxed">
                 Passionné par la <span className="text-cyan-400 font-semibold">structuration applicative</span> et les <span className="text-purple-400 font-semibold">logiques métier</span>. 
-                Je créé des solutions web modernes avec React, Next.js et des technologies d'avant-garde.
+                Je crée des solutions web modernes avec React, Next.js et des technologies d'avant-garde.
               </p>
 
               {/* Boutons CTA */}
@@ -92,10 +92,12 @@ const Hero: React.FC = () => {
       {/* Navigation rapide */}
       <div className="relative z-10 border-t border-slate-800 bg-slate-900/50 backdrop-blur-sm">
         <div className="max-w-6xl mx-auto px-4 sm:px-6 py-8">
-          <div className="grid grid-cols-2 sm:grid-cols-4 gap-3">
+          <div className="grid grid-cols-2 sm:grid-cols-3 lg:grid-cols-6 gap-3">
             {[
               { label: "À PROPOS", path: "/apropos" },
               { label: "COMPÉTENCES", path: "/competences" },
+              { label: "VEILLE", path: "/veille" },
+              { label: "CERTIFICATIONS", path: "/certifications" },
               { label: "CV", path: "/cv" },
               { label: "CONTACT", path: "/contact" },
             ].map((item) => (

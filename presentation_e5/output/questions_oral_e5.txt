@@ -1,0 +1,82 @@
+Questions probables - Oral E5 BTS SIO SLAM
+Angoran Moye Judes-Uriel Stephanas
+
+1. Pouvez-vous resumer votre parcours en BTS SIO SLAM et expliquer le fil conducteur de votre portfolio ?
+
+2. Pourquoi avez-vous choisi ces realisations dans votre tableau de synthese plutot que d'autres projets ?
+
+3. Quelle est votre contribution personnelle exacte sur le projet de plateforme d'agregation chez A'Numerique ?
+
+4. Quelle difference faites-vous entre votre stage de mai-juillet 2025 et votre mission de decembre 2025-janvier 2026 ?
+
+5. Expliquez le flux "scraping -> stockage -> seeding -> affichage" de votre projet d'agregation.
+
+6. Comment avez-vous verifie la coherence des donnees entre les environnements sur ce projet ?
+
+7. Sur GameConnect, comment gerez-vous l'authentification, les sessions et la protection des donnees utilisateur ?
+
+8. Pourquoi avoir choisi PHP/MySQL pour GameConnect, et quelles limites voyez-vous aujourd'hui a cette solution ?
+
+9. Expliquez simplement le role de SHA-256 dans votre projet Hash Python. Quelle difference entre hachage et chiffrement ?
+
+10. En quoi votre portfolio repond-il a la competence "developper la presence en ligne de l'organisation" ?
+
+11. Comment avez-vous travaille en mode projet : planification, priorites, retours, corrections, documentation ?
+
+12. Donnez un exemple concret de demande ou d'incident que vous avez traite ou auquel vous auriez pu repondre avec vos projets.
+
+13. Quels tests avez-vous realises sur vos projets avant de les considerer comme presentables ?
+
+14. Comment mettriez-vous a disposition un service informatique a des utilisateurs non techniques ?
+
+15. Quelles donnees personnelles manipulent GameConnect ou MailGuardAI, et quelles precautions RGPD faudrait-il prevoir ?
+
+16. Sur AIAuditOps, qu'est-ce qui est reellement fonctionnel aujourd'hui et qu'est-ce qui reste en cours ?
+
+17. Sur MailGuardAI, comment evitez-vous de faire confiance aveuglement a l'IA dans la classification des emails ?
+
+18. Votre veille porte sur l'IA dans la defense des systemes informatiques : quelle evolution technique vous semble la plus importante ?
+
+19. Que signifie "Broken Access Control" et comment eviter ce type de faille dans une application web ?
+
+20. Apres le BTS, pourquoi viser Data/IA et comment ce choix se relie a vos projets actuels et a votre ambition de startup ?
+
+21. Parmi toutes vos realisations, laquelle vous semble la plus solide techniquement, et pourquoi ?
+
+22. A l'inverse, quelle realisation vous semble la plus limitee aujourd'hui, et que feriez-vous pour l'ameliorer ?
+
+23. Quelle competence du tableau de synthese avez-vous le plus de facilite a justifier avec des preuves concretes ?
+
+24. Quelle competence du tableau de synthese est la plus difficile a defendre pour vous ?
+
+25. Comment votre portfolio montre-t-il votre evolution entre le debut du BTS et aujourd'hui ?
+
+26. Sur GameConnect, pouvez-vous decrire rapidement la structure de votre base de donnees ?
+
+27. Quelle est la difference entre une requete SQL classique et une requete preparee avec PDO ?
+
+28. Comment eviter une injection SQL dans une application PHP/MySQL ?
+
+29. Comment eviter une faille XSS dans un formulaire ou une publication utilisateur ?
+
+30. Pourquoi utiliser Docker dans un projet web ? Qu'est-ce que ca apporte concretement ?
+
+31. A quoi sert Prisma dans votre projet d'agregation ou dans AIAuditOps ?
+
+32. Si la source utilisee pour le scraping change de structure, que se passe-t-il et comment reagir ?
+
+33. Est-ce que le scraping pose des questions legales ou ethiques ? Comment rester prudent ?
+
+34. Comment avez-vous utilise Git ou GitHub dans vos projets ? A quoi servent les commits ?
+
+35. Quelle difference faites-vous entre front-end, back-end et base de donnees ?
+
+36. Pouvez-vous expliquer simplement ce qu'est une API REST ?
+
+37. Dans MailGuardAI, comment fonctionne globalement l'authentification OAuth Google ?
+
+38. Pourquoi utiliser SQLite dans un MVP, et pourquoi passer ensuite a PostgreSQL ou MySQL ?
+
+39. Comment verifiez-vous qu'une source de veille technologique est fiable ?
+
+40. Si vous deviez transformer un de vos projets en vrai produit utilisable par une entreprise, lequel choisiriez-vous et quelles seraient les premieres etapes ?

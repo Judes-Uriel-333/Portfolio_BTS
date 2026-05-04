@@ -4,6 +4,8 @@ export interface Project {
     title: string;
     category: "professionnel" | "academique" | "personnel" | "bts-e6";
     isBtsE6?: boolean;
+    detailPath?: string;
+    status?: string;
     period?: string;
     description: string;
     problemStatement?: string;
@@ -11,6 +13,8 @@ export interface Project {
     technicalStack: string[];
     challenges?: string;
     learnings?: string;
+    highlights?: string[];
+    gallery?: ProjectGalleryImage[];
     links?: {
         github?: string;
         demo?: string;
@@ -18,6 +22,12 @@ export interface Project {
     };
     images?: string[];
     competencesBTS?: string[];
+}
+
+export interface ProjectGalleryImage {
+    src: string;
+    alt: string;
+    caption: string;
 }
 
 export interface Certification {

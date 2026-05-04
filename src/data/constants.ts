@@ -107,6 +107,74 @@ export const projects: Project[] = [
 
     // PERSONNELS
     {
+        id: "aiauditops",
+        title: "AIAuditOps - Gouvernance et audit des systèmes IA",
+        category: "personnel",
+        detailPath: "/projets/aiauditops",
+        status: "Core fonctionnel, modules avancés encore en cours",
+        period: "2026",
+        description:
+            "Application web de gouvernance IA permettant d'inventorier des systèmes IA, suivre des analyses de risque, gérer des contrôles et collecter des preuves d'audit.",
+        problemStatement:
+            "Le projet répond au besoin de centraliser les informations liées aux systèmes IA : inventaire, risques, preuves, contrôles et préparation d'audit.",
+        solution:
+            "Mise en place d'un monorepo avec frontend Next.js, API NestJS, Prisma et PostgreSQL. Le cœur produit couvre l'authentification, le dashboard, les systèmes IA, les analyses de risque, les projets, les preuves et les paramètres d'organisation.",
+        technicalStack: ["Next.js", "React", "TypeScript", "NestJS", "Prisma", "PostgreSQL", "Docker", "Tailwind CSS"],
+        challenges:
+            "Structurer une application multi-modules sans présenter les parties avancées comme terminées. Certains modules sont visibles mais restent en attente de backend complet.",
+        learnings:
+            "Consolidation de l'architecture monorepo, des API NestJS, de Prisma, des flux d'authentification et de la conception d'une interface orientée audit.",
+        highlights: [
+            "Authentification et dashboard connectés à de vraies données",
+            "Inventaire des systèmes IA et suivi des analyses de risque",
+            "Gestion de preuves avec logique de hash côté serveur",
+            "Modules avancés préparés mais encore limités ou masqués selon leur maturité",
+        ],
+        gallery: [
+            { src: "/projects/aiauditops/01_login.png", alt: "Page de connexion AIAuditOps", caption: "Connexion à l'application." },
+            { src: "/projects/aiauditops/02_dashboard.png", alt: "Dashboard AIAuditOps", caption: "Vue d'ensemble des systèmes IA, risques et contrôles." },
+            { src: "/projects/aiauditops/03_systemes_liste.png", alt: "Liste des systèmes IA", caption: "Inventaire des systèmes IA avec niveau de risque." },
+            { src: "/projects/aiauditops/04_systeme_detail.png", alt: "Détail d'un système IA", caption: "Détail d'un système IA avec score et actions." },
+            { src: "/projects/aiauditops/05_risk_analysis.png", alt: "Analyses de risque AIAuditOps", caption: "Liste des analyses de risque." },
+            { src: "/projects/aiauditops/07_evidence_list.png", alt: "Liste des preuves AIAuditOps", caption: "Espace de suivi des preuves." },
+            { src: "/projects/aiauditops/08_upload_evidence.png", alt: "Upload de preuve AIAuditOps", caption: "Formulaire d'ajout de preuve." },
+            { src: "/projects/aiauditops/09_members.png", alt: "Gestion des membres AIAuditOps", caption: "Gestion des membres de l'organisation." },
+            { src: "/projects/aiauditops/10_settings.png", alt: "Paramètres organisation AIAuditOps", caption: "Paramètres de l'organisation." },
+        ],
+    },
+    {
+        id: "mailguardai",
+        title: "MailGuardAI - Agent IA d'analyse d'emails",
+        category: "personnel",
+        detailPath: "/projets/mailguardai",
+        status: "MVP local fonctionnel",
+        period: "2026",
+        description:
+            "MVP d'agent IA connecté à Gmail pour analyser des emails, les classer par intention business et faire ressortir les messages importants ou suspects.",
+        problemStatement:
+            "L'objectif est d'aider une petite structure à trier ses emails entre opportunités, factures, réclamations, urgences, marketing, administratif et menaces potentielles.",
+        solution:
+            "Création d'un backend Flask avec OAuth Gmail, analyse via OpenAI, stockage SQLite et worker de polling. Le frontend React/Vite affiche les statistiques, les filtres et les messages analysés.",
+        technicalStack: ["React", "Vite", "Tailwind CSS", "Python", "Flask", "Gmail API", "OpenAI API", "SQLite", "APScheduler"],
+        challenges:
+            "Gérer le flux OAuth, la session, la classification IA et les actions Gmail tout en restant prudent sur la fiabilité des décisions automatiques.",
+        learnings:
+            "Approfondissement des intégrations API, de l'authentification OAuth, du traitement asynchrone et de l'usage d'un modèle IA dans un workflow applicatif.",
+        highlights: [
+            "Connexion Google OAuth et lecture Gmail via API",
+            "Classification IA par intention business et niveau d'urgence",
+            "Dashboard avec statistiques et filtres par catégorie",
+            "Backend Flask avec worker de polling et stockage SQLite",
+        ],
+        gallery: [
+            { src: "/projects/mailguardai/splash_screen.png", alt: "Écran de démarrage MailGuardAI", caption: "Écran de démarrage de l'application." },
+            { src: "/projects/mailguardai/login_page.png", alt: "Page de connexion MailGuardAI", caption: "Connexion via Google OAuth." },
+            { src: "/projects/mailguardai/dashboard_all_messages.png", alt: "Dashboard MailGuardAI avec tous les messages", caption: "Dashboard listant les emails analyses." },
+            { src: "/projects/mailguardai/dashboard_menaces_filter.png", alt: "Filtre menaces MailGuardAI", caption: "Filtre des messages classés comme menaces." },
+            { src: "/projects/mailguardai/dashboard_opportunites_filter.png", alt: "Filtre opportunités MailGuardAI", caption: "Filtre des opportunités business détectées." },
+        ],
+    },
+    {
         id: "task-manager-react",
         title: "Gestionnaire de tâches (React)",
         category: "personnel",
